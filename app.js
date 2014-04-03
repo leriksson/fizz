@@ -1,7 +1,7 @@
 $(function(){
 
 	function sortList(amount){
-		for (var i = 0; i < amount; i++) {
+		for (var i = 1; i < amount; i++) {
 			if (i % 3 == 0 && i % 5 == 0) {
 				$('.numberlist').append(' fizz buzz,')
 			} else if (i % 3 == 0) {
